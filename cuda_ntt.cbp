@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cuda_ntt"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/zeen/project_code/ntt_accelerating/cuda_ntt"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/home/zeen/miniconda3/bin/make -f &quot;/home/zeen/project_code/ntt_accelerating/cuda_ntt/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/home/zeen/miniconda3/bin/make -f &quot;/home/zeen/project_code/ntt_accelerating/cuda_ntt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/home/zeen/miniconda3/bin/make -f &quot;/home/zeen/project_code/ntt_accelerating/cuda_ntt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/home/zeen/miniconda3/bin/make -f &quot;/home/zeen/project_code/ntt_accelerating/cuda_ntt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/zeen/project_code/ntt_accelerating/cuda_ntt"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/home/zeen/miniconda3/bin/make -f &quot;/home/zeen/project_code/ntt_accelerating/cuda_ntt/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/home/zeen/miniconda3/bin/make -f &quot;/home/zeen/project_code/ntt_accelerating/cuda_ntt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/home/zeen/miniconda3/bin/make -f &quot;/home/zeen/project_code/ntt_accelerating/cuda_ntt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/home/zeen/miniconda3/bin/make -f &quot;/home/zeen/project_code/ntt_accelerating/cuda_ntt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/zeen/project_code/ntt_accelerating/cuda_ntt"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/home/zeen/miniconda3/bin/make -f &quot;/home/zeen/project_code/ntt_accelerating/cuda_ntt/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/home/zeen/miniconda3/bin/make -f &quot;/home/zeen/project_code/ntt_accelerating/cuda_ntt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/home/zeen/miniconda3/bin/make -f &quot;/home/zeen/project_code/ntt_accelerating/cuda_ntt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/home/zeen/miniconda3/bin/make -f &quot;/home/zeen/project_code/ntt_accelerating/cuda_ntt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cuda_ntt">
+				<Option output="/home/zeen/project_code/ntt_accelerating/cuda_ntt/cuda_ntt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zeen/project_code/ntt_accelerating/cuda_ntt"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/home/zeen/miniconda3/bin/make -f &quot;/home/zeen/project_code/ntt_accelerating/cuda_ntt/Makefile&quot;  VERBOSE=1 cuda_ntt"/>
+					<CompileFile command="/home/zeen/miniconda3/bin/make -f &quot;/home/zeen/project_code/ntt_accelerating/cuda_ntt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/home/zeen/miniconda3/bin/make -f &quot;/home/zeen/project_code/ntt_accelerating/cuda_ntt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/home/zeen/miniconda3/bin/make -f &quot;/home/zeen/project_code/ntt_accelerating/cuda_ntt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cuda_ntt/fast">
+				<Option output="/home/zeen/project_code/ntt_accelerating/cuda_ntt/cuda_ntt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zeen/project_code/ntt_accelerating/cuda_ntt"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/home/zeen/miniconda3/bin/make -f &quot;/home/zeen/project_code/ntt_accelerating/cuda_ntt/Makefile&quot;  VERBOSE=1 cuda_ntt/fast"/>
+					<CompileFile command="/home/zeen/miniconda3/bin/make -f &quot;/home/zeen/project_code/ntt_accelerating/cuda_ntt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/home/zeen/miniconda3/bin/make -f &quot;/home/zeen/project_code/ntt_accelerating/cuda_ntt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/home/zeen/miniconda3/bin/make -f &quot;/home/zeen/project_code/ntt_accelerating/cuda_ntt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/zeen/project_code/ntt_accelerating/cuda_ntt/helper.h">
+			<Option target="cuda_ntt"/>
+		</Unit>
+		<Unit filename="/home/zeen/project_code/ntt_accelerating/cuda_ntt/main.cu">
+			<Option target="cuda_ntt"/>
+		</Unit>
+		<Unit filename="/home/zeen/project_code/ntt_accelerating/cuda_ntt/ntt_30bits.cuh">
+			<Option target="cuda_ntt"/>
+		</Unit>
+		<Unit filename="/home/zeen/project_code/ntt_accelerating/cuda_ntt/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
